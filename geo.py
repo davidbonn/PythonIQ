@@ -22,6 +22,10 @@
             "search"    -- will search and print results
             "count"     -- print how many entries there are
             "expunge"   -- delete set
+            
+    Requires:
+    
+        pip install redis[hiredis]
 """
 
 import argparse
