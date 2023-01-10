@@ -36,7 +36,7 @@ def download(url, target):
     widgets = [
         target + ":",
         ' ', progressbar.Percentage(),
-        ' ', progressbar.Bar(),
+        ' ', progressbar.GranularBar(),
         ' ', progressbar.ETA(),
         ' ', progressbar.FileTransferSpeed(),
     ]

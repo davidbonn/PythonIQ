@@ -50,7 +50,7 @@ def calc_pi(limit):  # Generator function
 def main():
     widgets = [
         ' [', progressbar.Timer(), '] ',
-        progressbar.Bar(marker='\u2588'), ' ',
+        progressbar.GranularBar(), ' ',
         progressbar.Percentage(),
     ]
 
