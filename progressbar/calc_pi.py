@@ -58,6 +58,8 @@ def main():
     m = 50_000
     idx = 0
 
+    print(f"Calculating pi to {m} significant digits")
+
     with progressbar.ProgressBar(max_value=m, widgets=widgets) as bar:
         for digit in calc_pi(m + 2):
             if digit == 0:
