@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-    pb.py -- simplest progressbar demo
+    pbdemo.py -- simplest progressbar demo
 """
 
 import time
