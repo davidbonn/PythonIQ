@@ -37,8 +37,8 @@ def download(url, target):
         target + ":",
         ' ', progressbar.Percentage(),
         ' ', progressbar.GranularBar(),
-        ' ', progressbar.ETA(),
-        ' ', progressbar.FileTransferSpeed(),
+        ' ', progressbar.AdaptiveETA(),
+        ' ', progressbar.AdaptiveTransferSpeed(),
     ]
 
     location = 0
@@ -60,7 +60,7 @@ if __name__ == "__main__":
         "CALFIRE.geojson"
     )
     """
-    # very large file to play with
+    # a VERY large file to play with
     download(
         "http://resources.mpi-inf.mpg.de/yago-naga/yago3.1/yago3.1_entire_ttl.7z",
         "yago3.1.7z"
