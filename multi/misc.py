@@ -56,6 +56,7 @@ def parse_args():
 
 
 if __name__ == "__main__":
+    # test code
     args = parse_args()
     print(f"{args.root=}")
     files = [f for f in all_files(args.root)]
