@@ -17,7 +17,7 @@ def main():
 
     start = time.perf_counter()
     files = [f for f in misc.all_files(args.root)]
-    hashes = [rc[0] for rc in map(worker, files)]
+    hashes = [rc[1] for rc in map(worker, files)]
 
     print(f"{files[0]=}, {hashes[0]=}")
     print(f"sequential hashes of {len(hashes)} files:  {time.perf_counter()-start:.3f} seconds")
