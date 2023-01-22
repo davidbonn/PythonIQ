@@ -8,6 +8,7 @@ import misc
 
 
 def worker(fn):
+    """returns both our filename and the result to play nicely with imap_unordered()"""
     return fn, misc.hash_file(fn)
 
 
