@@ -1,4 +1,4 @@
-#!/usr/bin/env python3.
+#!/usr/bin/env python3
 """
     computes sha512 hashes of files sequentially with no multiprocessing
 """
