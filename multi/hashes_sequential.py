@@ -1,6 +1,6 @@
 #!/usr/bin/env python3.
 """
-    computes sha256 hashes of files sequentially with no multiprocessing
+    computes sha512 hashes of files sequentially with no multiprocessing
 """
 
 import time
