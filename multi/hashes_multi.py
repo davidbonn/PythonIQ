@@ -1,6 +1,6 @@
-#!/usr/bin/env python3.
+#!/usr/bin/env python3
 """
-    computes sha256 hashes of files in parallel after building the list of files
+    computes sha512 hashes of files in parallel after building the list of files
 """
 
 import time
